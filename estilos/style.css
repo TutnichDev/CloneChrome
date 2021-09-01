@@ -72,6 +72,9 @@ body {
     width: 56rem;
     height: 3.9rem;
     padding: 0 10px 0 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
 }
 
 .container-buscador_itemBuscador , .input-buscador{
@@ -79,7 +82,15 @@ body {
     justify-content: center;
     height: 3.7rem;
     flex-grow: 1;
+    padding-left: 5px;
+    
 }
+
+.input-buscador:focus-visible {
+    border:red 1px;
+    outline: none;
+}
+
 
 .input-buscador {
     border:none
@@ -93,22 +104,40 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-
-
-
-
-
-
-
+.boton {
+    height: 3.4rem;
+    width: auto;
+    margin: 0 8px 0 8px;
+    padding: 0 8px 0 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color:#3c4043
+}
 
 
 
 .buscaLogoLupa {
-    width: 24px;
-    height: 24px;
+    width: 13px;
+    height: 15px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+    
+.buscaLogoMicro {
+    width: 11px;
+    height: 17px;
+    margin-right: 8px;
+    margin-top: 4px;
 }
 .main_container_box3 {
     height: 18%;
+    font-size: 1.3rem;
+    margin-top: 13px;
+    color: #3c4043;
+    
+    
 }
         .main_container_box {
             display: flex;
@@ -116,6 +145,7 @@ body {
             align-items: center;
             flex-direction: column;
         }
+    
 
 footer {
     flex-grow: 1;
@@ -132,7 +162,7 @@ footer {
 
 .footer-container_box1 {
     background-color: rgb(239, 239, 241);
-    padding-left: 30px;
+    padding-left: 27px;
     height: 42px;
     display: flex;
     align-items: center;
