@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {text-decoration: none ; color: black}
+a:visited {color: black }
+a:hover { color: black}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content:flex-end;
+        min-height: 60px;
+        width: 100vw;
+        
+
+}
+.header_nav {
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 232.047px;
+    height: 48px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_logo1 {
+    width: 35px;
+    height: 35px;
+}
+
+.nav_logo2 , .nav_imag2{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+
+.main_container_box1 {
+    height: 40%;
+}
+.logoGoogle {
+    height: 9.2rem;
+    width: 27.2rem;
+}
+
+.main_container_box2 {
+    min-height: 42%;
+    padding: 0.5rem;
+}
+
+.container-buscador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: grey 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    width: 56rem;
+    height: 3.9rem;
+    padding: 0 10px 0 10px;
+}
+
+.container-buscador_itemBuscador , .input-buscador{
+    display: flex;
+    justify-content: center;
+    height: 3.7rem;
+    flex-grow: 1;
+}
+
+.input-buscador {
+    border:none
+}
+
+.container-botones{
+    padding-top: 3.5rem;
+    width: 56rem;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.buscaLogoLupa {
+    width: 24px;
+    height: 24px;
+}
+.main_container_box3 {
+    height: 18%;
+}
+        .main_container_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+footer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.footer-container_box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.footer-container_box1 {
+    background-color: rgb(239, 239, 241);
+    padding-left: 30px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0,0,0,.54)
+}
+.footer-container_box2 {
+    background-color: rgb(239, 239, 241);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 4.3rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    }
+    .footerBox2_div1 {
+        display: flex;
+        width: 50.5rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    .footerBox2_div2 {
+        display: flex;
+        width: 31.1rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .footer-container_box2>div>a{
+        color: #70757a;        
+    }
