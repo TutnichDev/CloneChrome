@@ -19,6 +19,7 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
+    min-width: 62.2rem;
 }
 .header {
     display: flex;
@@ -28,7 +29,7 @@ body {
         
 
 }
-.header_nav {
+.nav {
     font-size: 1.3rem;
     display: flex;
     flex-wrap: wrap;
@@ -37,12 +38,16 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.nav_logo1 {
+.nav__logo1 {
     width: 35px;
     height: 35px;
+    background-image: url("../imagenes/9puntos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
-.nav_logo2 , .nav_imag2{
+.nav__logo2 , .nav_imag2{
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -74,7 +79,12 @@ body {
     padding: 0 10px 0 10px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+}
 
+.container-buscador:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 
 .container-buscador_itemBuscador , .input-buscador{
@@ -83,6 +93,7 @@ body {
     height: 3.7rem;
     flex-grow: 1;
     padding-left: 5px;
+    font-size: 1.6rem;
     
 }
 
@@ -113,6 +124,13 @@ body {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color:#3c4043
+    
+}
+
+.boton:hover {
+    border: solid 1px #eeeef1;
+    box-shadow: 0px 1px 1px  #0000001a;
+    border: 1px solid #dadce0
 }
 
 
@@ -157,6 +175,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 
 
